@@ -1,0 +1,63 @@
+.conteiner{
+    display: table-cell;
+    border: solid;
+    background-color: rgb(253, 253, 253);
+    border-color: rgb(255, 255, 255);
+    height: 600px;
+}
+body{
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.final{
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: green ;
+    border: solid 0,5px;
+    border-color: green;
+} 
+
+.coluna1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+}
+
+.colunas{
+    display: flex;
+    gap: 15px;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 125px;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+.borda1{
+    border: 1px solid;
+}
+
+.borda2{
+    border: 1px solid;
+}
+
+.bordasg{
+    display: flex;
+    gap: 65px;
+    margin-left: 15px;
+}
